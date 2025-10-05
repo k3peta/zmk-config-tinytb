@@ -57,7 +57,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SELECT_BT:
-  - BT CLR ALL
+  - {t: BASE, h: toggle}
   - {t: BT, h: '4'}
   - {t: BT, h: '3'}
   - {t: BT, h: '2'}
