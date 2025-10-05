@@ -116,7 +116,7 @@
         base {
             label = "BASE";
             bindings = <
-&kp ENTER  &mkp LCLK  &lt 4 SPACE  &mkp RCLK  &mkp LCLK  &mt RIGHT_CONTROL BACKSPACE
+&kp ENTER  &lt 4 SPACE  &mkp LCLK  &mt LG(RIGHT_CONTROL) BACKSPACE  &mkp RCLK  &mkp LCLK
             >;
         };
 
@@ -148,7 +148,7 @@
         Scroll_L0 {
             label = "Scroll_L0 ";
             bindings = <
-&trans  &trans  &trans  &to 8  &trans  &mkp MCLK
+&to 8  &trans  &kp LG(LS(NUMBER_4))  &mkp MB5  &mkp MB4  &mkp MCLK
             >;
         };
 
